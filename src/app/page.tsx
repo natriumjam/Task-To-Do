@@ -189,8 +189,8 @@ export default function HomePage() {
       <main className="min-h-screen bg-gray-100 pb-24 font-sans text-gray-900">
 
         {/* Header */}
-        <div className={`p-6 sticky top-0 z-10 backdrop-blur-xs ${
-          isScrolled ? 'shadow-lg bg-gray-50/20' : 'shadow-none bg-transparent'
+        <div className={`px-6 pb-6 pt-10 sticky top-0 z-10 backdrop-blur-xs ${
+          isScrolled ? 'shadow-lg bg-gray-50/40' : 'shadow-none bg-transparent'
         }`}>
           <h1 className="text-3xl font-bold ">To-Do List</h1>
         </div>
@@ -263,9 +263,9 @@ export default function HomePage() {
         {/* Floating Action Button */}
         <button
             onClick={openCreateModal}
-            className="fixed bottom-8 right-8 w-14 h-14 bg-gray-50/20 hover:bg-blue-500 backdrop-blur-xs rounded-full shadow-lg flex items-center justify-center text-3xl transition-transform hover:scale-105 active:scale-95 z-40"
+            className="fixed bottom-8 right-8 w-14 h-14 bg-gray-50/40 hover:bg-blue-500 backdrop-blur-xs rounded-full shadow-lg flex items-center justify-center text-3xl transition-transform hover:scale-105 active:scale-95 z-40"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15"/>
           </svg>
